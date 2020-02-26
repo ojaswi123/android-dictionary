@@ -1,0 +1,50 @@
+<LinearLayout android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#FF22CF"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:text="Dictionary App"
+    android:background="#00f"
+    android:textSize="50dp"
+    android:textColor="#FF5722"
+    android:gravity="center"
+    android:textStyle="bold"/>
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter word :"
+        android:layout_marginTop="100dp"
+        android:textColor="#FF5722"
+        android:background="#FFEB3B"
+        android:textSize="30dp"
+        android:id="@+id/actv_word"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_meaning"
+        android:text="Meaning"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#FF9800"
+        android:textSize="30dp"
+        android:textColor="#00f"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Word"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textSize="30dp"
+        android:onClick="addword"
+        android:background="#03A9F4"
+        />
+
+
+
+
+
+</LinearLayout>
